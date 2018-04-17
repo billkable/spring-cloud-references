@@ -40,6 +40,7 @@ and Cloud Native Developer courses:
 - Project Documentation: http://cloud.spring.io/spring-cloud-static/spring-cloud-config/1.4.2.RELEASE/single/spring-cloud-config.html
 - Spring External Configuration Orders of Precedence: https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html
 - How to push config via git webhook: https://spencergibb.netlify.com/blog/2015/09/24/spring-cloud-config-push-notifications/
+- Feature Toggles: https://martinfowler.com/articles/feature-toggles.html
 
 ## Spring Cloud Commons - Useful for seeing what's under the hood
 - Project Home: https://cloud.spring.io/spring-cloud-commons/
