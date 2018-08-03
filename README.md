@@ -64,6 +64,12 @@ and Cloud Native Developer courses:
 - Configuring Http Clients: http://cloud.spring.io/spring-cloud-static/spring-cloud-commons/1.3.2.RELEASE/single/spring-cloud-commons.html#http-clients
 - Abstracting different Spring Cloud Service Registries: http://cloud.spring.io/spring-cloud-static/spring-cloud-commons/1.3.2.RELEASE/single/spring-cloud-commons.html#__enablediscoveryclient
 
+## Pivotal Cloud Foundry & Spring Boot
+### Injecting Creds to Spring Boot app
+- An example of an easy way to do it: http://engineering.pivotal.io/post/spring-boot-injecting-credentials/
+- VCAP Environment Post-Processor: https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/cloud/CloudFoundryVcapEnvironmentPostProcessor.html
+- An example of the hard way to do it: https://github.com/pivotal-education/pcf-articulate-code/blob/master/src/main/java/io/pivotal/education/articulate/service/EnvironmentHelper.java
+
 ## Pivotal Cloud Foundry - Spring Cloud Services
 - Home: http://docs.pivotal.io/spring-cloud-services/1-4/common/index.html
 - Dependencies Matrix: http://docs.pivotal.io/spring-cloud-services/1-4/common/client-dependencies.html
@@ -79,7 +85,7 @@ and Cloud Native Developer courses:
 ## Blogs
 - General blog of Cloud Native, Spring Cloud subjects from a Spring Cloud thought leader: https://spencergibb.netlify.com/
 - Dipping into spring cloud topics from a Spring Cloud contributor: http://ryanjbaxter.com/
-- The Spring Cloud blog: https://spring.io/blog
+- The Spring blog: https://spring.io/blog
 
 ## Spring Cloud Dataflow documentation (handling streaming and data centric applications using cloud native patterns and tooling)
 - Project Home: https://cloud.spring.io/spring-cloud-dataflow/
