@@ -15,6 +15,8 @@ and Cloud Native Developer courses:
 - A great Spring One 2017 Talk about practical use of SOLID principles: https://springoneplatform.io/sessions/solid-in-the-wild-life-when-your-software-is-actually-soft
 - Original 12 Factors: https://12factor.net
 - "Beyond 12 Factors" (Pivotal evolution of original 12 Factors): https://content.pivotal.io/blog/beyond-the-twelve-factor-app
+- "Components vs. Microservices, Independent Deployability": http://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html
+
 ## Spring Boot Plugins (building and packaging Springboot Apps):
 - Gradle Springboot Plugin: https://docs.spring.io/spring-boot/docs/2.0.1.BUILD-SNAPSHOT/gradle-plugin/reference/html/
 - Maven Springboot Plugin: https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#build-tool-plugins-maven-plugin
@@ -23,12 +25,20 @@ and Cloud Native Developer courses:
 - Steeltoe (Spring Cloud Config Server and Spring Cloud Netflix on .NET): https://steeltoe.io/
 
 ## Netflix OSS Docs
+### Ribbon (Client Load Balancing)
 - Ribbon Wiki: https://github.com/Netflix/Ribbon/wiki
+
+### Hystrix (Bulkheads and Circuit Breakers)
 - Hystrix Wiki: https://github.com/Netflix/Hystrix/wiki
 - Hystrix Algorithm: https://github.com/Netflix/Hystrix/wiki/How-it-Works
 - Hystrix Metrics and Monitoring: https://github.com/Netflix/Hystrix/wiki/Metrics-and-Monitoring
 - Performance Implications of using Hystrix: https://github.com/Netflix/Hystrix/wiki/FAQ%20:%20General#what-is-the-processing-overhead-of-using-hystrix
+- Hystrix Operations and Tuning Guide: https://github.com/Netflix/Hystrix/wiki/Operations
+
+### Eureka (Service Registry)
 - Eureka Wiki: https://github.com/Netflix/Eureka/wiki
+
+### Netflix Build Tools
 - Nebula build plugins: https://nebula-plugins.github.io/
 
 ## Spring Cloud Netflix - Eureka, Ribbon, Hystrix
@@ -41,6 +51,10 @@ and Cloud Native Developer courses:
 - Spring External Configuration Orders of Precedence: https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html
 - How to push config via git webhook: https://spencergibb.netlify.com/blog/2015/09/24/spring-cloud-config-push-notifications/
 - Feature Toggles: https://martinfowler.com/articles/feature-toggles.html
+
+## Spring Cloud Bus
+- Home: http://cloud.spring.io/spring-cloud-static/spring-cloud-bus/1.3.3.RELEASE/single/spring-cloud-bus.html
+- Targeting application for config bus refresh: http://cloud.spring.io/spring-cloud-static/spring-cloud-bus/1.3.3.RELEASE/single/spring-cloud-bus.html#_addressing_all_instances_of_a_service
 
 ## Spring Cloud Commons - Useful for seeing what's under the hood
 - Project Home: https://cloud.spring.io/spring-cloud-commons/
