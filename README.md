@@ -16,6 +16,7 @@ and Cloud Native Developer courses:
 - Original 12 Factors: https://12factor.net
 - "Beyond 12 Factors" (Pivotal evolution of original 12 Factors): https://content.pivotal.io/blog/beyond-the-twelve-factor-app
 - "Components vs. Microservices, Independent Deployability": http://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html
+- "Microservices Patterns (Chris Richardson)" - https://microservices.io
 
 ## Spring Boot Plugins (building and packaging Springboot Apps):
 - Gradle Springboot Plugin: https://docs.spring.io/spring-boot/docs/2.0.1.BUILD-SNAPSHOT/gradle-plugin/reference/html/
@@ -71,8 +72,8 @@ and Cloud Native Developer courses:
 - An example of the hard way to do it: https://github.com/pivotal-education/pcf-articulate-code/blob/master/src/main/java/io/pivotal/education/articulate/service/EnvironmentHelper.java
 
 ## Pivotal Cloud Foundry - Spring Cloud Services
-- Home: http://docs.pivotal.io/spring-cloud-services/1-4/common/index.html
-- Dependencies Matrix: http://docs.pivotal.io/spring-cloud-services/1-4/common/client-dependencies.html
+- Home: http://docs.pivotal.io/spring-cloud-services/1-5/common/index.html
+- Dependencies Matrix: https://docs.pivotal.io/spring-cloud-services/1-5/common/client-dependencies.html
 - Configuring Cross Cloud Foundry Service Registy (route mode): http://docs.pivotal.io/spring-cloud-services/1-4/common/service-registry/enabling-peer-replication.html
 - GoRouter does honor Ribbon load balancing algorithm: http://docs.pivotal.io/spring-cloud-services/1-4/common/service-registry/connectors.html#instance-specific-routing-in-ribbon
 - Configuring PCF Container-to-Container Networking, Service Registry and Client Load Balancing (SpringOne 2017): https://www.youtube.com/watch?v=1WJhFhBr-0Q
